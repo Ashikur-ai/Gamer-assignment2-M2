@@ -463,7 +463,26 @@ nav li {
     }
 
     
+
+    /* play section styles  */
+    .play-container {
+        flex-direction: column;
+    }
     
+    .play-info {
+        width: 100%;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+    }
+
+    .play-description {
+        text-align: center;
+    }
+
+    .play-img {
+        width: 100%;
+    }
 
 
 
