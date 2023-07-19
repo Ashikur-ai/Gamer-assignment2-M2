@@ -190,12 +190,31 @@ nav li {
 
 
     /* banner section styles  */
+
+    .banner-container {
+        flex-direction: column-reverse;
+        width: 100%;
+        padding: 20px 10px;
+    }
+
+    .banner-info {
+        padding-top: 70px;
+        width: 100%;
+        margin-top: 20px;
+
+    }
+
+    .banner-img {
+        align-items: center;
+        width: 100%;
+    }
     
 }
 
 
 /* for medium/tablet devices */
 @media screen and (min-width:576px) and (max-width:992px) {
+    /* navigation styles  */
     nav {
         flex-direction: column;
         text-align: center;
@@ -209,5 +228,15 @@ nav li {
 
     nav li {
         margin-top: 20px;
+    }
+
+    
+    /* banner styles */
+    .banner-info {
+        padding: 0px 30px;
+    }
+
+    .banner-img > img {
+        height: 100%;
     }
 }
