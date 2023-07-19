@@ -384,7 +384,47 @@ nav li {
 }
 
 
+/* anytime section styles  */
 
+.anytime-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 90px;
+}
+
+
+#anytime-over {
+    width: 40%;
+    margin-top: -150px;
+    position: relative;
+    left: 250px;
+}
+
+.anytime-img>img {
+    width: 100%;
+    
+}
+
+
+.anytime-info {
+    padding-left: 100px;
+    text-align: left;
+}
+
+
+.anytime-online{
+    color: #8758F1;
+}
+.anytime-description {
+    color: #534C64;
+    text-align: left;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 166.667% */
+    margin-top: 20px;
+}
 
 
 
@@ -484,6 +524,9 @@ nav li {
         width: 100%;
     }
 
+
+    /* anytime section styles  */
+    .anytimecon
 
 
     
