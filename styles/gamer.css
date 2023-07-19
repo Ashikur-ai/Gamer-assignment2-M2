@@ -77,10 +77,8 @@ nav li {
 
 
 /* banner section styles */
-.banner-info {
-    background-image: url("../images/Group14.png");
-    background-size: cover;
-    height: 600px;
+.banner-info-container {
+    
 
 }
 
@@ -93,21 +91,29 @@ nav li {
 
 .banner {
     display: flex;
-    justify-content: space-between;    
+       
 }
 
 .banner-info {
-    width: 50%;
+    width: 60%;
+    background-image: url("../images/Group14.png");
+    background-size: cover;
 }
 
 .banner-img {
-    margin-right: 100px;
+    width: 40%;
+    margin: auto;
+}
+
+
+.banner-img > img {
+    width:100%;
 }
 
 
 
 .banner-info-container {
-    padding-top: 100px;
+    padding-top: 50px;
     padding-left: 100px;
 }
 
@@ -167,6 +173,11 @@ nav li {
 .bullet-point li {
     margin-top: 10px;
 }
+
+
+
+
+
 /* Responsive styles  */
 
 /* for small/mobile devices  */
