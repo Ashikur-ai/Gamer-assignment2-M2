@@ -36,6 +36,8 @@ nav {
 nav ul {
     display: flex;
     list-style: none;
+    justify-content: center;
+    align-items: center;
 }
 
 nav li {
@@ -45,6 +47,9 @@ nav li {
 .nav-social {
     display: flex;
     gap: 20px;
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+    padding: 10px 20px;
 }
 
 
@@ -76,6 +81,25 @@ nav li {
 
 /* for small/mobile devices  */
 @media screen and (max-width:576px) {
+    nav {
+        flex-direction: column;
+        text-align: center;
+        box-shadow: none;
+    }
+
+    nav ul {
+        flex-direction: column;
+    }
+
+
+    nav li {
+        margin-top: 20px;
+    }
+}
+
+
+/* for medium/tablet devices */
+@media screen and (min-width:576px) and (max-width:992px) {
     nav {
         flex-direction: column;
         text-align: center;
