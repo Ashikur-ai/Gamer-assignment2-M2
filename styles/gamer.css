@@ -525,6 +525,12 @@ nav li {
     padding: 5px;
 }
 
+
+.profile-item:hover {
+    border: 1px solid #FF42A5;
+    color: #FF42A5;
+}
+
 /* footer section styles */
 footer {
     background: #0B0223;
@@ -544,10 +550,10 @@ footer {
     font-style: normal;
     font-weight: 600;
     line-height: normal;
-    display: flex;
-    justify-content: center;
-    gap: 30px;
-    margin: 40px 0px;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    width: 70%;
+    margin: 30px auto;
 }
 
 
@@ -558,7 +564,40 @@ footer {
     gap: 10px;
 }
 
+.social-icon-footer {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    margin: auto;
 
+}
+
+
+.footer-submenu {
+    color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    width: 70%;
+    margin: 30px auto;
+}
+
+
+.copyright {
+    color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin: 30px 0px;
+}
 
 /* Responsive styles  */
 
