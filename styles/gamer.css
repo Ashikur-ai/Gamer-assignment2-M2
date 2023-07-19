@@ -90,9 +90,7 @@ nav li {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    
-    
+    justify-content: center;    
 }
 
 
@@ -341,6 +339,7 @@ nav li {
     justify-content: space-around;
     align-items: center;
     padding: 0 90px;
+    
 }
 
 .play-title {
@@ -386,7 +385,9 @@ nav li {
 
 /* anytime section styles  */
 
+
 .anytime-container {
+    margin: 100px 0;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -426,6 +427,136 @@ nav li {
     margin-top: 20px;
 }
 
+
+.anytime-title {
+    color: #0B0223;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 700;
+}
+
+
+/* career section styles */
+.career {
+    background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+}
+.career-container {
+    display: flex;
+    justify-content: space-around;    
+}
+.career-info {
+    
+    background-image: url("../images/Group14.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 60px;
+    margin-left: 40px;
+       
+}
+
+
+.career-title {
+    color: white;
+    font-size: 48px;
+}
+
+.career-img>img {
+    width: 100%;
+    height: 100%;
+}
+
+.career-description {
+    margin-top: 20px;
+    width: 500px;
+    color: white;
+}
+
+.career-inner-container {
+    display: flex;
+    margin-top: 20px;
+    width: 500px;
+    color: white;
+}
+
+.career-right {
+    text-align: right;
+}
+
+
+.btn-career {
+    border-radius: 48px;
+    background: #FFF;
+    font-family: Work Sans;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    border: none;
+    color: #FF42A5;
+    padding: 20px 40px;
+    margin: 40px 0px;
+}
+
+
+/* profile section styles  */
+
+.profile-container {
+
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+}
+
+
+.profile {
+    padding: 100px 0px;
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+}
+.profile-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border-radius: 50px;
+    background: #FFF;
+    padding: 5px;
+}
+
+/* footer section styles */
+footer {
+    background: #0B0223;
+    padding: 100px 0px;
+}
+
+.footer-title {
+    color: white;    
+
+}
+
+.footer-menu {
+    color: white;
+    color: #FFF;
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin: 40px 0px;
+}
+
+
+.footer-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
 
 
 
@@ -526,7 +657,97 @@ nav li {
 
 
     /* anytime section styles  */
-    .anytimecon
+    .anytime-container {
+        padding: 100px 20px;
+        margin-top: 100px;
+        flex-direction: column-reverse;
+    }
+
+
+    .anytime-info {
+        width: 100%;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+    }
+
+    .anytime-description {
+        text-align: center;
+    }
+
+    .anytime-img {
+        padding: 0 20px;
+        width: 80%;
+        margin-top: 40px;
+    }
+
+
+    #anytime-over {
+        width: 40%;
+        margin-top: -150px;
+        position: relative;
+        left: 250px;
+    }
+
+
+    /* career section styles  */
+   
+    .career-container {
+        flex-direction: column;    
+        width: 100%;
+        padding-top: 100px;
+    }
+
+    
+    .career-title {
+        margin-left: 35px;
+    }
+
+    .career-info {
+        width: 100%;
+        margin: 0;
+        padding: 0 ;
+    }
+
+    .career-img>img {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    .career-description{
+        width: 350px;
+        margin: auto;
+    }
+
+    .career-inner-container {
+        width: 350px;
+        margin: 10px auto;
+    }
+
+    .btn-career {
+        margin-left: 40px;
+    }
+
+
+
+    /* profile section styles  */
+    .profile-container {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+
+    .profile-item>img {
+        width: 40%;
+        
+    }
+
+    .profile-item {
+        font-size: 10px;
+    }
+
+
+   
 
 
     
@@ -574,5 +795,23 @@ nav li {
 
     .online-card-container {
         grid-template-columns: repeat(2, 1fr);
+    }
+
+
+    .anytime-container {
+        padding: 100px 20px;
+    }
+
+
+    /* career section styles  */
+    .career-container {
+        flex-direction: column;
+    }
+
+    .career-info {
+        text-align: center;
+        width: 80%;
+        margin: auto;
+        padding-left: 150px;
     }
 }
