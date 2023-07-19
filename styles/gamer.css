@@ -230,6 +230,11 @@ nav li {
     line-height: 45px;
 }
 
+
+
+
+
+
 /* Responsive styles  */
 
 /* for small/mobile devices  */
@@ -270,7 +275,35 @@ nav li {
         align-items: center;
         width: 100%;
     }
+
     
+    /* gamer section styles  */
+
+    .gamer {
+        background: none;
+    }
+    .gamer-container {
+        flex-direction: column;
+        width: 100%;
+    }
+    
+
+    .gamer-img, .gamer-info, .gamer-description  {
+        
+        width: 100%;
+    }
+
+
+    .gamer-title, .btn-gamer, .gamer-agenda, .gamer-description {
+        text-align: center;
+    }
+
+
+
+    
+
+
+
 }
 
 
@@ -300,5 +333,11 @@ nav li {
 
     .banner-img > img {
         height: 100%;
+    }
+
+
+    /* gamer section styles  */
+    .gamer-container {
+        flex-direction: column;
     }
 }
