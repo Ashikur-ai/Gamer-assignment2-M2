@@ -77,44 +77,27 @@ nav li {
 
 
 /* banner section styles */
-.banner-info-container {
-    
 
+.banner-container {
+    display: flex;   
+    justify-content: space-evenly;
 }
-
-
-.banner li {
-    display: flex;
-    gap: 10px;
-}
-
-
-.banner {
-    display: flex;
-       
-}
-
 .banner-info {
-    width: 60%;
+    width: 80%;
     background-image: url("../images/Group14.png");
-    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    
 }
+
 
 .banner-img {
-    width: 40%;
-    margin: auto;
-}
-
-
-.banner-img > img {
-    width:100%;
-}
-
-
-
-.banner-info-container {
-    padding-top: 50px;
-    padding-left: 100px;
+    margin-right: 100px;
 }
 
 .banner-title {
@@ -140,12 +123,20 @@ nav li {
 }
 
 
+
+.bullet-point li {
+    display: flex;
+    gap: 10px;
+    margin: 10px 0px;
+}
+
+
 .btn-banner1 {
-    padding: 21px 40px;
+    padding: 11px 20px;
     border-radius: 48px;
     background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
     color: #FFF;
-    font-size: 1.5rem;
+    font-size: 1rem;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
@@ -154,11 +145,11 @@ nav li {
 
 
 .btn-banner2 {
-    padding: 21px 40px;
+    padding: 11px 20px;
     border-radius: 48px;
     background: #4EC5F7;
     color: #FFF;
-    font-size: 1.5rem;
+    font-size: 1rem;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
@@ -166,13 +157,12 @@ nav li {
 }
 
 
-.bullet-point {
-    margin: 20px 0px;
+.banner-btn {
+    margin-bottom: 30px;
 }
+/* 
 
-.bullet-point li {
-    margin-top: 10px;
-}
+
 
 
 
@@ -182,6 +172,7 @@ nav li {
 
 /* for small/mobile devices  */
 @media screen and (max-width:576px) {
+    /* navigation section styles  */
     nav {
         flex-direction: column;
         text-align: center;
@@ -196,6 +187,10 @@ nav li {
     nav li {
         margin-top: 20px;
     }
+
+
+    /* banner section styles  */
+    
 }
 
 
