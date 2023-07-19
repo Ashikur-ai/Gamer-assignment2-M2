@@ -160,13 +160,75 @@ nav li {
 .banner-btn {
     margin-bottom: 30px;
 }
-/* 
 
 
+/* gamer section styles  */
+
+.gamer {
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+    padding-bottom: 50px;
+}
+.gamer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+}
+
+.gamer-img > img{
+    width: 100%;
+}
+
+.gamer-title {
+    text-align: right;
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-top: 100px;
+}
+
+.btn-gamer {
+    text-align: right;
+    margin-top: 20px;
+}
 
 
+.gamer-description {
+    margin-top: 24px;
+    color: #534C64;
+    text-align: right;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 166.667% */
+    width: 520px;
+}
 
 
+.gamer-agenda {
+    margin-top: 10px;
+    color: #534C64;
+    text-align: right;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 45px; /* 187.5% */
+}
+
+
+.gamer-agenda2 {
+    color: #534C64;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 45px;
+}
 
 /* Responsive styles  */
 
