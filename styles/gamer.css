@@ -334,6 +334,21 @@ nav li {
 }
   
 
+/* play section styles  */
+
+.play-title {
+    color: #0B0223;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px;
+}
+.play-header {
+
+}
+
+
+
 /* Responsive styles  */
 
 /* for small/mobile devices  */
@@ -399,7 +414,16 @@ nav li {
 
 
 
-    online section 
+    /* online section styles  */
+
+
+    .online-card-container {
+        grid-template-columns: auto;
+        width: 100%;
+    }
+
+    
+    
 
 
 
@@ -442,5 +466,11 @@ nav li {
     /* gamer section styles  */
     .gamer-container {
         flex-direction: column;
+    }
+
+    /* online section style  */
+
+    .online-card-container {
+        grid-template-columns: repeat(2, 1fr);
     }
 }
